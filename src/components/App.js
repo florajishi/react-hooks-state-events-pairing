@@ -10,6 +10,9 @@ function App() {
     <div className="App">
       <Video 
         videoURL={video.embedUrl}
+        videoTitle={video.title}
+        videoViews={video.views}
+        uploadDate={video.createdAt}
       />
     </div>
   );
