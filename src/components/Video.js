@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Video({ videoURL }){
+function Video({ videoURL, videoTitle, videoViews, uploadDate }){
     return(
         <div>
             <iframe
@@ -11,6 +11,8 @@ function Video({ videoURL }){
                 allowFullScreen
                 title="Thinking in React"
             />
+            <h1>{videoTitle}</h1>
+            <span>{videoViews} Views | Uploaded {uploadDate}</span>
         </div>
     )
 }
