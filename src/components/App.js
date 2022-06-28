@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import video from "../data/video.js";
 import CommentSection from "./CommentSection.js";
 import LikeDislikeBar from "./LikeDislikeBar.js";
