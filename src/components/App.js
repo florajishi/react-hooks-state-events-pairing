@@ -1,11 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 import video from "../data/video.js";
 import CommentSection from "./CommentSection.js";
 import LikeDislikeBar from "./LikeDislikeBar.js";
 import Video from "./Video.js";
 
 function App() {
-
   return (
     <div className="App">
       <Video 
@@ -18,7 +17,7 @@ function App() {
         upvotes={video.upvotes}
         downvotes={video.downvotes}
       />
-      <CommentSection 
+      <CommentSection
         comments={video.comments}
       />
     </div>
