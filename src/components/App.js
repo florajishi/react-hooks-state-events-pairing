@@ -21,7 +21,7 @@ function App() {
         comments={video.comments}
       />
     </div>
-  );
+  )
 }
 
 export default App;
