@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Comments({ key, user, commentTxt}){
+function Comments({ id, user, commentTxt}){
     return(
         <div>
-            <h3 key={key}>{user}</h3>
-            <p key={key}>{commentTxt}</p>
+            <h3 key={id}>{user}</h3>
+            <p key={id}>{commentTxt}</p>
         </div>
     )
 }
